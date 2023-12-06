@@ -1,0 +1,353 @@
+/* Local Overrides */
+
+#gallery-item-accessibility > div > div.tile-overlay > div {
+	width: 410px;
+}
+
+@media only screen and (max-width: 1068px) {
+	#gallery-item-accessibility > div > div.tile-overlay > div {
+		width: 360px;
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	#gallery-item-accessibility > div > div.tile-overlay > div {
+		width: 310px;
+	}
+}
+
+/* Accessibility */
+.tile-overlay-copy {
+	margin-top: 7px;
+}
+
+/* airpods 3gen hero */
+html.no-js .section-airpods-3rd-gen .video-container .static-frame {
+	opacity: 1;
+}
+
+/* Connection Headline */
+.tile-one-tap .tile-content .typography-connection-tile-headline,
+.tile-automatic-switching .tile-content .typography-connection-tile-headline {
+	bottom: 21px;
+	width: 240px;
+}
+@media only screen and (max-width: 734px) {
+	.tile-one-tap .tile-content .typography-connection-tile-headline,
+	.tile-automatic-switching
+		.tile-content
+		.typography-connection-tile-headline {
+		bottom: 15px;
+		width: 240px;
+	}
+}
+
+/* Connection headline spacing */
+.section-connection .headline {
+	width: 800px;
+}
+@media only screen and (max-width: 1068px) {
+	.section-connection .headline {
+		width: 600px;
+	}
+}
+@media only screen and (max-width: 734px) {
+	.section-connection .headline {
+		width: 100%;
+	}
+}
+
+/* Connection first tile image spacing */
+.overview-tile-onetap-setup {
+	display: inline;
+}
+
+@media only screen and (max-width: 734px) {
+	.overview-tile-onetap-setup {
+		--p-width: 232px;
+		--p-height: 353px;
+	}
+}
+@media only screen and (min-width: 735px) and (max-width: 1068px) {
+	.overview-tile-onetap-setup {
+		--p-width: 271px;
+		--p-height: 414px;
+	}
+}
+
+/* Vday 2023 Banner */
+
+.section-vday-2023 .section-content .vday-2023 {
+	background-image: url(/mx/airpods/images/overview/vday-2023/val23_airpods_familypage__w8koes4xfiay_large.jpg);
+	min-height: 584px;
+	background-position: 50%;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: center;
+	border-radius: 18px;
+	margin-left: 2.08333%;
+	margin-right: 2.08333%;
+	overflow: hidden;
+	padding: 15px 40px;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5),
+	(min-resolution: 144dpi),
+	only screen and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (min-resolution: 1.5dppx) {
+	.section-vday-2023 .section-content .vday-2023 {
+		background-image: url(/mx/airpods/images/overview/vday-2023/val23_airpods_familypage__w8koes4xfiay_large_2x.jpg);
+	}
+}
+@media only screen and (max-width: 1068px) {
+	.section-vday-2023 .section-content .vday-2023 {
+		background-image: url(/mx/airpods/images/overview/vday-2023/val23_airpods_familypage__w8koes4xfiay_medium.jpg);
+	}
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+	only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.section-vday-2023 .section-content .vday-2023 {
+		background-image: url(/mx/airpods/images/overview/vday-2023/val23_airpods_familypage__w8koes4xfiay_medium_2x.jpg);
+	}
+}
+@media only screen and (max-width: 734px) {
+	.section-vday-2023 .section-content .vday-2023 {
+		background-image: url(/mx/airpods/images/overview/vday-2023/val23_airpods_familypage__w8koes4xfiay_small.jpg);
+	}
+}
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+	only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.section-vday-2023 .section-content .vday-2023 {
+		background-image: url(/mx/airpods/images/overview/vday-2023/val23_airpods_familypage__w8koes4xfiay_small_2x.jpg);
+	}
+}
+@media only screen and (max-width: 1068px) {
+	.section-vday-2023 .section-content .vday-2023 {
+		min-height: 400px;
+		padding: 16px 0 20px;
+	}
+}
+@media only screen and (max-width: 734px) {
+	.section-vday-2023 .section-content .vday-2023 {
+		margin: auto;
+		max-width: calc(400px + 12.5%);
+		min-height: 563px;
+		padding: 20px 0;
+	}
+}
+.section-vday-2023 .section-content .vday-2023-background-wrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.section-vday-2023 .section-content .vday-2023-image {
+	background-image: url(/mx/airpods/images/overview/vday-2023/val23_airpods_familypage__w8koes4xfiay_large.jpg);
+	background-position: 50%;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5),
+	(min-resolution: 144dpi),
+	only screen and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (min-resolution: 1.5dppx) {
+	.section-vday-2023 .section-content .vday-2023-image {
+		background-image: url(/mx/airpods/images/overview/vday-2023/val23_airpods_familypage__w8koes4xfiay_large_2x.jpg);
+	}
+}
+@media only screen and (max-width: 1068px) {
+	.section-vday-2023 .section-content .vday-2023-image {
+		background-image: url(/mx/airpods/images/overview/vday-2023/val23_airpods_familypage__w8koes4xfiay_medium.jpg);
+	}
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+	only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.section-vday-2023 .section-content .vday-2023-image {
+		background-image: url(/mx/airpods/images/overview/vday-2023/val23_airpods_familypage__w8koes4xfiay_medium_2x.jpg);
+	}
+}
+@media only screen and (max-width: 734px) {
+	.section-vday-2023 .section-content .vday-2023-image {
+		background-image: url(/mx/airpods/images/overview/vday-2023/val23_airpods_familypage__w8koes4xfiay_small.jpg);
+	}
+}
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+	only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.section-vday-2023 .section-content .vday-2023-image {
+		background-image: url(/mx/airpods/images/overview/vday-2023/val23_airpods_familypage__w8koes4xfiay_small_2x.jpg);
+	}
+}
+
+/* Dynamic pricing link */
+
+.sosumi-link-follows,
+.sosumi-link-follows ~ span,
+.sosumi-link-follows ~ .footnote,
+.sosumi-link-follows ~ .product-addition {
+	display: none;
+}
+.sosumi-link-follows[data-pricing-loaded],
+.sosumi-link-follows[data-pricing-loaded] ~ span,
+.sosumi-link-follows[data-pricing-loaded] ~ .footnote,
+.sosumi-link-follows[data-pricing-loaded] ~ .product-addition {
+	display: inline;
+}
+
+/* Pricing font size */
+
+@media only screen and (min-width: 735px) and (max-width: 1069px) {
+	.typography-intro {
+		font-size: 16px;
+	}
+}
+
+@media only screen and (min-width: 1069px) and (max-width: 1299px) {
+	.typography-intro {
+		font-size: 17px;
+	}
+}
+@media only screen and (min-width: 1300px) {
+	.typography-intro {
+		font-size: 21px;
+	}
+}
+
+/* All Airpods S */
+
+@media only screen and (max-width: 459px) {
+	.section-airpods-pro .hero-price {
+		max-width: 220px;
+	}
+	.section-airpods-3rd-gen .hero-price {
+		max-width: 260px;
+	}
+	.section-airpods-3rd-gen .section-tile-wrapper {
+		min-height: 540px;
+	}
+	.section-airpods-2nd-gen .hero-price {
+		max-width: 260px;
+	}
+	.section-airpods-2nd-gen .section-tile-wrapper {
+		min-height: 520px;
+	}
+	.section-airpods-max .hero-price {
+		max-width: 280px;
+	}
+}
+
+/* Airpods 3rd. Gen pricing text */
+
+@media only screen and (min-width: 735px) and (max-width: 1299px) {
+	.section-airpods-3rd-gen .hero-price {
+		max-width: 130px;
+	}
+}
+
+@media only screen and (min-width: 1300px) {
+	.section-airpods-3rd-gen .hero-price {
+		max-width: 150px;
+	}
+}
+
+/* Airpods 2nd. Gen pricing text */
+
+@media only screen and (min-width: 735px) and (max-width: 1068px) {
+	.section-airpods-2nd-gen .hero-price {
+		max-width: 130px;
+	}
+}
+
+@media only screen and (min-width: 735px) and (max-width: 827px) {
+	.section-airpods-2nd-gen .overview-airpods-2ndgen-right {
+		margin-right: calc(158.1px - 13vw);
+	}
+}
+
+@media only screen and (min-width: 1069px) and (max-width: 1299px) {
+	.section-airpods-2nd-gen .hero-price {
+		max-width: 130px;
+	}
+}
+
+@media only screen and (min-width: 1300px) {
+	.section-airpods-2nd-gen .hero-price {
+		width: 150px;
+	}
+}
+
+/* Airpods Max pricing text */
+
+@media only screen and (min-width: 735px) and (max-width: 1068px) {
+	.section-airpods-max .content-block .hero-price {
+		width: 130px;
+		margin-top: 0px;
+	}
+}
+
+@media only screen and (min-width: 735px) and (max-width: 1000px) {
+	.section-airpods-max .content-block .hero-price {
+		margin-top: -10px;
+	}
+}
+
+@media only screen and (min-width: 1069px) and (max-width: 1299px) {
+	.section-airpods-max .hero-price {
+		width: 130px;
+	}
+}
+
+@media only screen and (min-width: 1300px) {
+	.section-airpods-max .content-block .hero-price {
+		width: 150px;
+		margin-top: 0.2em;
+	}
+}
+
+/* Links inline */
+
+@media only screen and (min-width: 735px) and (max-width: 1068px) {
+	.section-airpods-3rd-gen .links-inline {
+		bottom: -145px;
+	}
+	.section-airpods-2nd-gen .links-inline {
+		bottom: -175px;
+	}
+}
+
+@media only screen and (min-width: 1069px) and (max-width: 1299px) {
+	.section-airpods-3rd-gen .links-inline {
+		bottom: -165px;
+	}
+	.section-airpods-2nd-gen .links-inline {
+		bottom: -190px;
+	}
+}
+
+@media only screen and (min-width: 1300px) {
+	.section-airpods-3rd-gen .links-inline {
+		bottom: -155px;
+	}
+	.section-airpods-2nd-gen .links-inline {
+		bottom: -175px;
+	}
+}
+
+@media only screen and (min-width: 365px) and (max-width: 408px) {
+	.section-connection .section-max-width {
+		padding-left: 45px;
+		padding-right: 45px;
+	}
+}
+@media only screen and (min-width: 409px) and (max-width: 446px) {
+	.section-connection .section-max-width {
+		padding-left: 70px;
+		padding-right: 70px;
+	}
+}

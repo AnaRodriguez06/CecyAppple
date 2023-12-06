@@ -1,0 +1,6 @@
+/* Local Overrides */
+
+/* Superscript */
+.compare-module-wrapper .footnote > a {
+	padding-left: 0.2em;
+}
