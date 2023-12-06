@@ -1,0 +1,46 @@
+footer {
+    background-color: #333;
+    color: #fff;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.seccion {
+    margin-right: 50px;
+}
+
+.seccion:last-child {
+    margin-right: 0;
+}
+
+h4 {
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 50px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.sociales {
+    margin-left: auto;
+}
+
+.sociales a {
+    margin-right: 50px;
+}

@@ -1,0 +1,78 @@
+.ofertas {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.ofertas .contenedor {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.ofertas .producto {
+    flex: 0 0 auto;
+    width: 300px; 
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.ofertas .producto img {
+    max-width: 100%;
+    height: auto;
+}
+
+.ofertas .producto h4 {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.ofertas .producto p {
+    font-size: 12px;
+    color: #777;
+    margin: 5px 0;
+}
+
+.ofertas .producto span {
+    font-size: 16px;
+    color: #ff6600;
+    font-weight: bold;
+}
+
+.ofertas .producto a {
+    text-decoration: none;
+    color: #000;
+}
+
+.ofertas .producto:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #ff6600;
+}
+
+@media (max-width: 768px) {
+    .ofertas .contenedor {
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+    }
+
+    .ofertas .producto {
+        width: 80%; 
+        margin: 10px;
+    }
+
+    .ofertas .producto h4 {
+        font-size: 12px;
+    }
+
+    .ofertas .producto p {
+        font-size: 10px;
+    }
+
+    .ofertas .producto span {
+        font-size: 14px;
+    }
+}

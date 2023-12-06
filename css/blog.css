@@ -1,0 +1,29 @@
+#blog h3, #blog h4 {
+    text-align: center;
+    font-size: 18px;
+}
+
+#blog .contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#blog article {
+    margin: 10px;
+}
+
+#blog img {
+    width: 100%;
+    max-width: 280px;
+}
+a {
+    color: rgb(1, 133, 137);
+    text-decoration: none; 
+    transition: color 0.3s; 
+    animation: neon 1.5s infinite alternate;
+}
+
+a:hover {
+    color: orange; 
+}

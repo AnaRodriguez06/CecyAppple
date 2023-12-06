@@ -1,0 +1,69 @@
+#banner {
+    margin-top: 1%;
+    position: relative;
+}
+
+#banner img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+#banner .contenedor {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #fff;
+    text-align: center;
+}
+
+#banner h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+#banner a {
+    padding: 1% 5%;
+    background-color: #ffffff;
+    background: linear-gradient(90deg, #577aa9, #4376c3, #1cbac9);
+    color: rgb(255, 255, 255);
+    border: 0.5% solid #ff0000;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin: 1%;
+    border-radius: 1%;
+    box-shadow: 0 0.5% 1% rgba(255, 255, 255, 0.3);
+    animation: neon 1.5s infinite alternate;
+    display: inline-block;
+}
+
+#banner a:hover {
+    background: rgba(51, 51, 51, 0.5);
+}
+
+@media (min-width: 480px) {
+    #banner h2 {
+        font-size: 2.5rem;
+    }
+    #banner a {
+        padding: 1.5% 6%;
+        margin: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    #banner {
+        height: auto;
+    }
+    #banner img {
+        margin-top: 0;
+        width: 100%;
+    }
+    #banner h2 {
+        font-size: 3.5rem;
+    }
+    #banner p {
+        font-size: 1.5rem;
+    }
+}
